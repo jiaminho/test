@@ -107,6 +107,24 @@ PyRX ligand docking tutorial https://www.youtube.com/watch?v=2t12UlI6vuw
 3. Process generated SMILES and save it as .sdf file
 4. Follow the video tutorial to get binding scores and save it as a csv file
 
+### Final Results 
+
+![final results PyRx screenshot](https://github.com/mattroconnor/deep_learning_coronavirus_cure/blob/master/generations/results/final_results.JPG "PyRx Final Results")
+
+| Ligand | Binding Affinity (kcal/mol) |
+| ---- | ---- |
+| Lopinavir | -6.9 |
+| Generated_3 | -6.8 |
+| Generated_5 | -6.3 |
+| Darunavir | -6.1 |
+| Generated_1 | -6.0 |
+| Generated_6 | -5.7 |
+| Generated_2 | -5.5 |
+| Nelfinavir | -5.5 |
+| Atazanavir | -5.4 |
+| Remdesivir | -5.3 |
+| Ritonavir | -5.3 |
+| Generated_4 | -5.2 |
 
 ## References
 
