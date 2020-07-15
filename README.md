@@ -70,7 +70,7 @@ These protease inhibitors SMILES are added into datasets/protease_inhibitors_for
 ## Train LSTM-based RNN model to generate SMILES
 
 ### Configuration
-See `base_config.json`.
+See `config.json`.
 
 | parameters | meaning |
 | ---- | ---- |
@@ -78,10 +78,10 @@ See `base_config.json`.
 | data_filename | filepath for training the model (`SMILES file with newline as delimiter`) |
 | data_length | number of SMILES for training. If you set 0, all the data is used (default: `0`) |
 | units | size of hidden state vector of two LSTM layers (default: `256`, see the paper) |
-| num_epochs | number of epochs (default: `42`) |
+| num_epochs | number of epochs (`42`) |
 | optimizer | optimizer (default: `adam`) |
 | seed | random seed (default: `71`) |
-| batch_size | batch size (default: `256`) |
+| batch_size | batch size (default: `512`) |
 | validation_split | split ratio for validation (default: `0.10`) |
 | varbose_training | verbosity mode (default: `True`) |
 | checkpoint_monitor | quantity to monitor (default: `val_loss`) |
