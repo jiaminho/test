@@ -44,7 +44,7 @@ I combined datasets from two sources: i) [Moses data set](https://github.com/mol
 
 Preprocess dataset to remove duplicates, salts, stereochemical information, nucleic acids and long peptides. https://github.com/topazape/LSTM_Chem
 
-In anaconda prompt, cd to the file and run python cleanup_smiles.py datasets/all_smiles.txt datasets/all_smiles_clean.txt
+In terminal, cd to the file and run python cleanup_smiles.py datasets/all_smiles.txt datasets/all_smiles_clean.txt
 
 After cleaning the smiles using the cleanup_smiles.py script and only retaining smiles between 34 to 128 characters in length, './datasets/all_smiles_clean.txt' contains the final list of 180793 smiles on which the model was trained.
 
